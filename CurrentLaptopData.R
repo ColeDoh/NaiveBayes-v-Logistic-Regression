@@ -39,7 +39,7 @@ ggplot(aes(x=Brand, y=Price, fill=Brand))+
   ggtitle("Box Plot")
 
 
-#naiveBayes
+#naiveBayes plot
 LaptopData %>%
   
 ggplot(aes(x=Price, fill=Brand))+
